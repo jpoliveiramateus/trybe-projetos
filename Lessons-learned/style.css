@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-size: medium;
+  margin: 0%;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: rgb(54, 54, 54);
+  width: 100%;
+}
+
+#minha_foto {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.226);
+  width: 20%;
+  margin-top: 200px;
+  margin-left: 150px;
+  margin-bottom: -180px;
+}
+
+table , th , td {
+  border: 1px solid black;
+  margin-left: 780px;
+  margin-top: -80px;
+  margin-bottom: 40px;
+}
+
+th , td {
+  padding: 12px;
+  text-align: left;
+}
+
+#link {
+  padding: 10px;
+  background-color: rgb(54, 54, 54);
+  color: white;
+  border-radius: 10px;
+  max-width: 92px;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+#link2 {
+  padding: 10px;
+  background-color: rgb(54, 54, 54);
+  color: white;
+  border-radius: 10px;
+  max-width: 92px;
+  text-decoration: none;
+  font-family: monospace;
+  margin-left: 20px;
+}
+
+article {
+  line-height: 18px;
+  background-color: rgb(54, 54, 54);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 600px;
+  margin-left: 12px;
+}
+
+aside {
+  background-color: rgb(54, 54, 54);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.lado-esquerdo {
+  display: flex;
+  float: left;
+  width: 50%;
+}
+
+.lado-direito {
+  display: flex;
+  float: right;
+  width: 50%;
+}
+
+footer {
+  margin-top: 200px;
+  text-align: center;
+}
+
+#nome {
+  text-align: left;
+  margin-left: 5px;
+}
